@@ -1,7 +1,7 @@
 const INPUT: &str = include_str!("../inputs/day10.txt");
 
 pub fn solve() {
-    let parsed = parse_input(&INPUT);
+    let parsed = parse_input(INPUT);
     part_one(&parsed);
     part_two(&parsed);
 }
